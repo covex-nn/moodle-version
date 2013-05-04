@@ -1,0 +1,14 @@
+language: php
+
+php:
+   - 5.3
+
+before_script:
+   - wget http://getcomposer.org/composer.phar
+
+script:
+   - php -dmemory_limit=1G composer.phar update --prefer-dist
+
+notifications:
+   email:
+      - covex.mobile@gmail.com
