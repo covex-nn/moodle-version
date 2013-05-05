@@ -23,6 +23,8 @@
     }
   }, 
   "config" : {
-    "bin-dir" : "bin"
+    "bin-dir" : "bin", 
+    "github-oauth" : {
+    }
   }
 }
