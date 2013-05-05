@@ -5,11 +5,11 @@ php:
 
 env:
   global:
-    - secure: "a3T/lj0rxCaLJmqEteBXkHA94IQ0JH27WdT1fwe+H9rtjC1+OegkDdEYdUFL\nTBJuJTf0lWt9JTjt88UBixBncQSt7LvLZPt1reKp0rPf56k06Nqrilnbc3YZ\nNmH/cjX3GU2XyWz/bC39EDrfFdQehDPqOVptEJnp2CKOPWDqBp4="
+    - secure: "DQMsDlqVaQQEDln4Lt64hk6moMUTXIwIVNCyNSv7a9OOlKhZM3vV2Hr0vPsZ\n1mql04XVRSJ1LHkc/mrl6OFYxzxSQ07AGIz6eLUoM+wxIQE7ct9L1gae8uaO\n85bEBJa+JXD66xSolS4X7fMHni2K1Fa7J4ZEmNzAJmaNAVtcbHg="
 
 before_script:
    - wget http://getcomposer.org/composer.phar
-   - composer config github-oauth.github.com $GITHUB_TOKEN
+   - composer config github-oauth.github.com $GITHUB_OAUTH_TOKEN
 
 script:
    - php -dmemory_limit=1G composer.phar update --no-interaction
