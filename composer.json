@@ -4,7 +4,7 @@
   "type" : "metapackage", 
   "license": "MIT",
   "require": {
-    "covex-nn/moodle-installer": ">=1.0", 
+    "covex-nn/moodle-installer": "~2.0", 
     "moodle/moodle" : "2.4.3.11"
   }, 
   "repositories" : [
