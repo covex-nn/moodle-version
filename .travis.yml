@@ -13,7 +13,3 @@ before_script:
 
 script:
    - php -dmemory_limit=1G composer.phar update --no-interaction
-
-notifications:
-   email:
-      - covex.mobile@gmail.com

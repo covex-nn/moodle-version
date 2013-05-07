@@ -4,12 +4,8 @@
   "type" : "metapackage", 
   "license": "MIT",
   "require": {
-    "covex-nn/moodle-installer": "~2.0", 
-    "moodle/moodle" : "2.4.3.11"
+    "covex-nn/moodle" : "2.4.3.11"
   }, 
-  "repositories" : [
-    { "type" : "composer", "url" : "https://raw.github.com/covex-nn/moodle-version/master" }
-  ], 
   "authors": [
     {
       "name": "Andrey F. Mindubaev",
