@@ -4,7 +4,7 @@
   "type" : "metapackage", 
   "license": "MIT",
   "require": {
-    "covex-nn/moodle" : "2.4.3.11"
+    "covex-nn/moodle" : "2.6.0.5"
   }, 
   "authors": [
     {
@@ -15,7 +15,7 @@
   ],
   "extra": {
     "branch-alias": {
-      "dev-master": "2.4.x-dev"
+      "dev-master": "2.6.x-dev"
     }
   }, 
   "config" : {
