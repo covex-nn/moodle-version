@@ -11,7 +11,7 @@
 ```json
 {
   "require-dev" : {
-    "covex-nn/moodle-version" : "~2.4"
+    "covex-nn/moodle-version" : "~2.6"
   }, 
   "extra" : {
     "branch-alias": {
