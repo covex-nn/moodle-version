@@ -6,7 +6,7 @@
 
 ## Installation
 
-* Use this template for composer.json to download Moodle 2.4
+* Use this template for composer.json to download Moodle 2.6
 
 ```json
 {
