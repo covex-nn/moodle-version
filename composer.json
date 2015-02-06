@@ -5,7 +5,7 @@
   "license": "MIT",
   "require": {
     "php": ">=5.4.4",
-    "covex-nn/moodle" : "2.8.1.2"
+    "covex-nn/moodle" : "2.8.3.1"
   }, 
   "authors": [
     {
