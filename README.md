@@ -6,12 +6,12 @@
 
 ## Installation
 
-* Use this template for composer.json to download Moodle 2.6
+* Use this template for composer.json to download Moodle 2.8
 
 ```json
 {
   "require-dev" : {
-    "covex-nn/moodle-version" : "~2.6"
+    "covex-nn/moodle-version" : "~2.8"
   }, 
   "extra" : {
     "branch-alias": {
