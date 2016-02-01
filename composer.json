@@ -4,7 +4,7 @@
   "type" : "metapackage", 
   "license": "MIT",
   "require": {
-    "covex-nn/moodle" : "2.6.0.5"
+    "covex-nn/moodle" : "2.6.11.1"
   }, 
   "authors": [
     {
